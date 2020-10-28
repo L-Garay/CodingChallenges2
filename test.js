@@ -6,6 +6,6 @@ import { maxItems, canCapture } from './arrays.js';
 // let budget = '$101';
 // maxItems(prices, budget);
 
-let rookPositions = ['A8', 'E8'];
-// @ts-ignore
-canCapture(rookPositions);
+// let rookPositions = ['A8', 'E8'];
+// // @ts-ignore
+// canCapture(rookPositions);

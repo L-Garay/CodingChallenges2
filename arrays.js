@@ -27,3 +27,15 @@ export function maxItems(prices, budget) {
     console.log(itemCount);
   }
 }
+
+// Write a function that returns true if two rooks can attack each other, and false otherwise. Two rooks can attack each other if they share the same row (letter) or column (number).
+export function canCapture([yourRook, opponentsRook]) {
+  let yourRookArr = yourRook.split('');
+  let oppRookArr = opponentsRook.split('');
+  if (yourRookArr[0] == oppRookArr[0] || yourRookArr[1] == oppRookArr[1]) {
+    console.log('true');
+    return true;
+  }
+  console.log('false');
+  return false;
+}

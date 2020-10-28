@@ -1,5 +1,6 @@
 // NOTE Import different methods here
 import { maxItems, canCapture } from './arrays.js';
+import { isRepdigit } from './math.js';
 
 // NOTE create fake sample data and test the method below
 // let prices = ['$34', '$62', '$62', '$98', '$100'];
@@ -9,3 +10,6 @@ import { maxItems, canCapture } from './arrays.js';
 // let rookPositions = ['A8', 'E8'];
 // // @ts-ignore
 // canCapture(rookPositions);
+
+let number = -11;
+isRepdigit(number);

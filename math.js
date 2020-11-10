@@ -6,3 +6,14 @@ export function isRepdigit(num) {
     currentValue == currentValue && currentValue > 0;
   console.log(numArr.every(checkNum));
 }
+
+// Create a function that takes an array as an argument and returns true or false depending on whether the average of all elements in the array is a whole number or not.
+export function isAvgWhole(arr) {
+  let total = arr.reduce(
+    (accumulator, currentValue) => accumulator + currentValue
+  );
+  if (Number.isInteger(total / arr.length)) {
+    return true;
+  }
+  return false;
+}

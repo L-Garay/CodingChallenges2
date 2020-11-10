@@ -2,10 +2,6 @@
 
 export function makeTitle(str) {
   let strArr = str.split(' ');
-  debugger;
-  for (let i = 0; i < strArr.length; i++) {
-    strArr[i][0] = strArr[i][0].toUpperCase();
-  }
-  let capStr = strArr.join(' ');
-  console.log(capStr);
+  let capitalArr = strArr.map((w) => w[0].toUpperCase() + w.substring(1));
+  return capitalArr.join(' ');
 }

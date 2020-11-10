@@ -39,3 +39,8 @@ export function canCapture([yourRook, opponentsRook]) {
   console.log('false');
   return false;
 }
+
+// Create a function that takes an array and returns the difference between the biggest and smallest numbers.
+export function diffMaxMin(arr) {
+  return Math.max(...arr) - Math.min(...arr);
+}

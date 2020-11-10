@@ -1,5 +1,5 @@
 // NOTE Import different methods here
-import { maxItems, canCapture } from './arrays.js';
+import { maxItems, canCapture, diffMaxMin } from './arrays.js';
 import { isRepdigit } from './math.js';
 import { makeTitle } from './strings.js';
 
@@ -15,5 +15,8 @@ import { makeTitle } from './strings.js';
 // let number = -11;
 // isRepdigit(number);
 
-let str = 'I am a title';
-makeTitle(str);
+// let str = 'I am a title';
+// makeTitle(str);
+
+// let arr = [-70, 43, 34, 54, 22];
+// diffMaxMin(arr);

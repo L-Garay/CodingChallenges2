@@ -1,7 +1,7 @@
 // NOTE Import different methods here
 import { maxItems, canCapture, diffMaxMin } from './arrays.js';
 import { isRepdigit } from './math.js';
-import { makeTitle } from './strings.js';
+import { makeTitle, transformUpvotes } from './strings.js';
 
 // NOTE create fake sample data and test the method below
 // let prices = ['$34', '$62', '$62', '$98', '$100'];
@@ -20,3 +20,6 @@ import { makeTitle } from './strings.js';
 
 // let arr = [-70, 43, 34, 54, 22];
 // diffMaxMin(arr);
+
+let str = '20.3k 3.8k 7.7k 992';
+transformUpvotes(str);
